@@ -221,7 +221,7 @@ input{
 .box-two-search{
 	background-color:white;
 	margin-top:1%;
-	height:35%;
+	height:30%;
 	width:80%;
 	margin-left:5%;
 	border-radius:1em;
@@ -238,13 +238,17 @@ input{
 .box-two-searchbar{
 	background-color:#ededed;
 	width:80%;
-	font:2em;
+	font-size:2em;
 	height:25%;
 	padding-top:2%;
 	border-radius:1.5em;
 	padding-left:2%;
 	margin-left:12%;
 	margin-top:1%;
+}
+.box-two-searchbar input{
+	font-size:0.57em;
+	width:92%;
 }
 .box-two-search-item{
 	display:flex;
@@ -292,6 +296,39 @@ input{
 }
 .search-item3 p{
 	margin-left:27%;
+}
+.box-two-item{
+	background:white;
+	margin-top:2.5%;
+	width:78%;
+	height:12%;
+	margin-left:4%;
+	border-radius:1em;
+	display:flex;
+	justify-content:space-between;
+	padding:2%;
+	
+}
+.box-two-item1{
+	display:flex;
+	justify-content:space-around;
+	border:3px solid #ededed;
+	border-radius:1.5em;
+	width:30%;
+}
+.box-two-item1 i{
+	margin-top:9%;
+	font-size:1.5em;
+	color:orange;
+}
+.box-two-item1 p{
+	color:blue;
+}
+.box-two-item img{
+	width:9%;
+	border-radius:50%;
+	height:80%;
+	margin-left:;
 }
 .box-three{
 	width:20%;
