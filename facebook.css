@@ -238,7 +238,6 @@ input{
 .box-two-searchbar{
 	background-color:#ededed;
 	width:80%;
-	font-size:2em;
 	height:25%;
 	padding-top:2%;
 	border-radius:1.5em;
@@ -247,7 +246,7 @@ input{
 	margin-top:1%;
 }
 .box-two-searchbar input{
-	font-size:0.57em;
+	font-size:1em;
 	width:92%;
 }
 .box-two-search-item{
@@ -333,3 +332,19 @@ input{
 .box-three{
 	width:20%;
 }
+.your-page{
+	display:flex;
+	justify-content:space-between;
+	margin-top:6%;
+	margin-left:3%;
+}
+.content-three-box-one-bold{
+	display:flex;
+	margin-top:6%;
+	margin-left:3%;
+}
+.content-three-box-one-bold img{
+	width:8%;
+	border-radius:50%;
+	margin-right:3%;
+} 
