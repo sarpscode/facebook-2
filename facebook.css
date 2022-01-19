@@ -324,10 +324,8 @@ input{
 	color:blue;
 }
 .box-two-item img{
-	width:9%;
-	border-radius:50%;
-	height:80%;
-	margin-left:;
+	width:10%;
+	clip-path:circle();
 }
 .box-three{
 	width:23%;
@@ -412,4 +410,27 @@ input{
 	height:5%;
 	padding:3% 3% 3% 10%;
 	border-radius:0.5em;
+}
+.content-three-box-three-contact{
+	display:flex;
+	margin-top:2%;
+}
+.content-three-box-three-contact div{
+	width:50%;
+	font-weight:bold;
+}
+.content-three-box-three-contact i{
+	margin-left:10%;
+}
+.content-three-box-three-image{
+	margin-bottom:10%;
+}
+.content-three-box-three-image img{
+	float:left;
+	width:12%;
+	border-radius:50%;
+	margin-right:3%;
+}
+.content-three-box-three-image p{
+	font-weight:bold;
 }
