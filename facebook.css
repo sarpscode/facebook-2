@@ -32,8 +32,12 @@ body{
 	width:15%;
 }
 .nav-font-four i{
-	padding-right:0.8em;
+	margin-right:1em;
 	font-size:1.2em;
+	margin-top:-8;
+	background-color:#ededed;
+	border-radius:50%;
+	border:7px solid #ededed;
 }
 .nav-font-one img{
 	width:20%;
