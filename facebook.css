@@ -9,7 +9,7 @@ body{
 .navbar{
 	background-color:white;
 	padding:1%;
-	height:4%;
+	height:6%;
 }
 .navbar-items{
 	display:flex;
@@ -29,7 +29,7 @@ body{
 }
 .nav-font-four{
 	display:flex;
-	width:15%;
+	width:17%;
 }
 .nav-font-four i{
 	margin-right:1em;
@@ -37,22 +37,24 @@ body{
 	margin-top:-8;
 	background-color:#ededed;
 	border-radius:50%;
-	border:7px solid #ededed;
+	border:9px solid #ededed;
 }
 .nav-font-one img{
-	width:20%;
-	height:45%;
+	width:12%;
+	height:95%;
 	float:left;
 	margin-right:2%;
+	margin-top:-3;
 }
 .searchbar{
 	display:flex;
 	background-color:#ededed;
 	width:65%;
-	height:33%;
+	height:75%;
 	padding-top:2%;
 	border-radius:1.5em;
 	padding-left:2%;
+	margin-top:-3;
 }
 .nav-font-three{
 	display:;
@@ -75,7 +77,8 @@ input{
 	appearance:none;
 	outline:none;
     background-color:#ededed;
-    width:80%;	
+    width:80%;
+    font-size:1em;	
 }
 .content{
 	display:flex;
@@ -88,7 +91,7 @@ input{
 }
 .box-one-image img{
 	float:left;
-	width:8%;
+	width:12%;
 	clip-path:circle();
 	margin-right:2%;
 }
@@ -437,4 +440,85 @@ input{
 }
 .content-three-box-three-image p{
 	font-weight:bold;
+}
+@media(max-width:1250px){
+	body{
+		width:100%;
+	}
+	.nav-font-three{
+		display:none;
+	}
+	.nav-font-four{
+		width:25%;
+	}
+	.search input{
+		display:none;
+	}
+	.searchbar{
+		width:9%;
+		border-radius:50%;
+		border:5px solid #ededed;
+		margin-top:-5;
+	}
+	.searchbar-font i{
+		margin-left:5%;
+	}
+	.nav-font-one img{
+		margin-right:5%;
+		height:110%;
+	}
+	.nav-font-two{
+		width:55%;
+		margin-right:10%;
+	}
+	.box-two-search{
+		width:93%;
+	}
+	.box-two-item{
+		width:90%;
+	}
+	.box-three{
+		margin-left:5%;
+	}
+}
+@media(max-width:1100px){
+	body{
+		margin-left:;
+		width:100%;
+	}
+	.box-two{
+		width:70%;
+		margin-left:8%;
+	}
+	.navbar{
+		width:100%;
+	}
+	.box-one{
+		display:none;
+	}
+	.nav-font-two{
+		width:50%;
+	}
+	.nav-font-four{
+	    width:30%;	
+	}
+}
+@media(max-width:900px){
+	.box-three{
+		display:none;
+	}
+	.navbar{
+		width:100%;
+	}
+	.box-two-search{
+		height:30%;
+		width:80%;
+		margin-top:3%;
+	}
+	.box-two{
+		margin-left:20%;
+	}
+	.box-two-item{
+		width:78%;
+	}
 }
